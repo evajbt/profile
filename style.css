@@ -1,0 +1,93 @@
+/* style.css */
+/* body */
+body {
+  background-color: #F9F6F1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F9F6F1;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* header */
+h1,h2, h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: #544336;
+}
+h1 {
+  font-size: 32px;
+  line-height: 24px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+}
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+  color: #544336;
+}
+a:hover {
+  text-decoration: none;
+  color: #F9F6F1;
+}
+/* class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card {
+  background-color: #D6CEC2;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  }
+  .list-inline li {
+  display: inline-block;
+  font-size: 50px;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+  #btn-wagon {
+    display: inline-block;
+    background-color: #544336;
+    color: #F9F6F1;
+    padding: 10px 20px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  #btn-wagon:hover {
+    background-color: #F9F6F1;
+    color: #544336;
+  }
+
+  /* responsive */
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+      width: 300px;
+    }
+  }
